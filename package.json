@@ -1,0 +1,44 @@
+{
+	"name": "mui-dashboard",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@emotion/react": "^11.9.0",
+		"@emotion/styled": "^11.8.1",
+		"@mui/icons-material": "^5.6.2",
+		"@mui/material": "^5.7.0",
+		"node-sass": "^7.0.1",
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0",
+		"react-router-dom": "^6.3.0",
+		"react-scripts": "5.0.1",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"webpack": "webpack",
+		"webpack-dev-server": "webpack-dev-server",
+		"start": "npm run webpack-dev-server -- --env mode=development",
+		"build": "npm run webpack -- --env mode=production"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.17.10",
+		"@babel/preset-env": "^7.17.10",
+		"@babel/preset-react": "^7.16.7",
+		"babel-loader": "^8.2.5",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+		"clean-webpack-plugin": "^4.0.0",
+		"css-loader": "^6.7.1",
+		"file-loader": "^6.2.0",
+		"html-webpack-plugin": "^5.5.0",
+		"mini-css-extract-plugin": "^2.6.0",
+		"sass-loader": "^12.6.0",
+		"style-loader": "^3.3.1",
+		"terser-webpack-plugin": "^5.3.1",
+		"url-loader": "^4.1.1",
+		"webpack": "^5.72.1",
+		"webpack-cli": "^4.9.2",
+		"webpack-dev-server": "^4.9.0",
+		"webpack-merge": "^5.8.0"
+	}
+}
